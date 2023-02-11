@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-[url('https://www.ticimax.com/App_Themes/Default/css/images/blogtopBg.jpg')] h-80 w-full flex flex-row justify-around items-center bg-cover bg-center bg-no-repeat mt-16">
+      <div className="bg-[url('https://www.ticimax.com/App_Themes/Default/css/images/blogtopBg.jpg')] h-80 w-full flex flex-row justify-around items-center bg-cover bg-center bg-no-repeat mt-14">
         <div className="flex flex-col p-8">
           <h1 className="flex justify-center text-white font-bold text-xl md:text-3xl mb-6">
             Procollec Blog Yazısı Başlığı

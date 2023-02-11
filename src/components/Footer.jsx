@@ -82,7 +82,7 @@ const Footer = () => {
                 placeholder="Email.."
                 className="rounded text-start w-60 h-12 text-[#14284B]"
               />
-              <button className="border border-solid text-[#14284B] p-2 ml-3 hover:bg-[#14284B] hover:text-[#fff] rounded-md max-[600px]:ml-1">
+              <button className="border border-solid bg-[#14284B] text-[#fff] p-2 ml-3 hover:bg-[#fff] hover:text-[#14284B] rounded-md max-[600px]:ml-1">
                 Gönder
               </button>
             </form>

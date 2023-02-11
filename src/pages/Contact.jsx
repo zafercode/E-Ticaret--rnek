@@ -14,10 +14,10 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <div className="contactouteline bg-[#E7EAEE] mt-20">
+      <div className="contactouteline bg-[#E7EAEE] mt-12">
         <div className="container m-auto">
           <div className="contact-head">
-            <h1 className="text-[#14284B] text-center text-5xl font-semibold p-[40px]">
+            <h1 className="text-[#14284B] text-center text-2xl font-extrabold py-[40px] pt-20">
               İletişim
             </h1>
           </div>

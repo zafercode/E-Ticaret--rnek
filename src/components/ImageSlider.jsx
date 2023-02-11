@@ -5,23 +5,23 @@ import { RxDotFilled } from "react-icons/rx";
 const ImageSlider = () => {
   const slides = [
     {
-      url: "https://magaza.procollec.com/cdn/4/629451/cG96WmFuTXorNjQ5Tml4dUg4OG5iYmdQYmNFPQ/images/manset/nvidia-609779.webp",
+      url: "https://www.ticimax.com/Uploads/Slider/ticimax-kargo-entegrasyonlari-v5.jpg",
       title: "Ekran Kartı",
     },
     {
-      url: "https://magaza.procollec.com/cdn/4/629451/cG96WmFuTXorNjQ5Tml4dUg4OG5iYmdQYmNFPQ/images/manset/-959699.webp",
+      url: "https://www.ticimax.com/Uploads/Slider/ticimax_anasayfa-banner_depomodulu_v1.png",
       title: "İndirimler",
     },
     {
-      url: "https://magaza.procollec.com/cdn/4/629451/cG96WmFuTXorNjQ5Tml4dUg4OG5iYmdQYmNFPQ/images/manset/-162778.webp",
+      url: "https://www.ticimax.com/Uploads/Slider/sayfatasarim-sihirbazi-anasayfav2.jpg",
       title: "Laptop",
     },
     {
-      url: "https://magaza.procollec.com/cdn/4/629451/cG96WmFuTXorNjQ5Tml4dUg4OG5iYmdQYmNFPQ/images/manset/aruba-744946.webp",
+      url: "https://www.ticimax.com/Uploads/Slider/ticimax_deprem_anasayfabanner_v3.png",
       title: "SwitchSeries",
     },
     {
-      url: "https://magaza.procollec.com/cdn/4/629451/cG96WmFuTXorNjQ5Tml4dUg4OG5iYmdQYmNFPQ/images/manset/hp-elite-dragonfly-504871.webp",
+      url: "https://www.ticimax.com/Uploads/Slider/ticimax_iso-sertifika_v7-anasayfabanner-924.jpg",
       title: "DragonFly",
     },
   ];
@@ -45,10 +45,11 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="max-w-[1440px] h-[570px] w-full mx-auto py-16 px-4 mt-6 group">
+    <div className="h-[570px] w-full pb-20 group">
       <div
-        className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
+        className="w-full h-full bg-center bg-cover duration-500"
         style={{ backgroundImage: `url(${slides[currentIndex].url})`}}
+        
       ></div>
 
       {/* Left Arrow  */}
